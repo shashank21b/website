@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>mini project</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+  
+    main {
+      flex: 1;
+    }
+  
+    footer {
+      background-color: #282828;
+      color: #fff;
+      padding: 20px;
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+      height: 298px;
+    }
+  
+    .footer-content {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      height: 100%;
+    }
+  
+    .left-content {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: center;
+      margin-left: 191px;
+      font-family: 'Inter', sans-serif;
+      font-size: 20px;
+      font-weight: 400;
+      line-height: 32px;
+      letter-spacing: 0em;
+    }
+  
+    .right-content {
+      text-align: right;
+      font-family: 'Inter', sans-serif;
+      font-size: 20px;
+      font-weight: 400;
+      line-height: 32px;
+      letter-spacing: 0em;
+      margin-right: 191px;
+    }
+  
+    .right-content span {
+      display: block;
+      margin-bottom: 10px;
+    }
+  
+    .image-container {
+      display: flex;
+      align-items: center;
+    }
+  
+    .image-container img {
+      width: 29.21px;
+      height: 27.42px;
+      margin-right: 10px;
+    }
+
+    .register-form {
+        display: flex;
+        align-items: center;
+        margin-bottom: 24px;
+      }
+      
+      .register-form input[type="text"] {
+        padding: 10px;
+        font-family: 'Inter', sans-serif;
+        font-size: 16px;
+        border: 1px solid #282828;
+        border-radius: 4px;
+        margin-right: 10px;
+        width: 300px;
+      }
+      
+      .register-form button {
+        padding: 10px 20px;
+        font-family: 'Inter', sans-serif;
+        font-size: 16px;
+        font-weight: 700;
+        background-color: #282828;
+        color: #fff;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+  </style>
+</head>
+
+<body style="background-color: #FFCD9E;">
+
+    <table>
+        
+        <td>
+            <div class="left-content">
+                <h1>An inspiring design delivered to <br>your inbox every morning</h1>
+                <p>Our team scouts the internet for the best designs,<br> illustrations, and art and delivers a truly inspiring <br>one every day to your inbox</p>
+                <h5>
+                    Show me how it looks
+                </h5>
+                <form class="register-form" style="margin-bottom: 0px;">
+                    <input type="text" placeholder="Your e-mail address">
+                    <button type="submit">Register</button>
+                </form>
+                <p style="font-size: 16px; color: #fff; margin-top: 0px;">Free - No Spam - No Data Sharing</p>
+            </div>
+        </td>
+        <td>
+            <div class="right-content" style="width: 575px;
+            height: 575px;" >
+                <img src="img.png" style="width: 393px;
+                height: 442px;  margin-top: 66px;" alt="logo">
+            </div>
+        </td>
+</table>4
+
+  <footer>
+    <div class="footer-content">
+      <div class="left-content">
+        <!-- Content aligned to the left -->
+        <span>Prompt Generator</span>
+        <span>Dweep Daily</span>
+        <span>All Contributors</span>
+        <span>Your data on Dweep.io</span>
+        <span>Contribute to Dweep</span>
+      </div>
+      <div class="right-content">
+        <!-- Content aligned to the right -->
+        <span>Dweep.io</span>
+        <span>Made with love in India</span>
+        <span class="image-container">
+          <img src="LinkedinLogo.png" alt="LinkedIn Logo">
+          <img src="InstagramLogo.png" alt="Instagram Logo">
+        </span>
+        <span>
+          <a >
+            <div>
+              <p></p>
+            </div>
+          </a>
+        </span>
+        <span>hello@dweep.io</span>
+      </div>
+    </div>
+  </footer>
+
+</body>
+
+</html>
